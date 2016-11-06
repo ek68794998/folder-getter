@@ -110,3 +110,6 @@ src
 				ShareActionProvider.java		12014	2013/07/29 10:09:06
 				SuggestionsAdapter.java		28466	2013/07/29 10:09:06
 ```
+
+# License
+Do whatever you like with this. Seriously. Use it, edit it, distribute it, put it on a USB drive and chop it up to make salad... whatever you like.
