@@ -8,6 +8,9 @@ def printDirs(rootDir, depth = 0):
 	rootLength = len(re.split('[\\\\/]', rootDir));
 
 	for root, dirs, files in os.walk(rootDir):
+		dirs.sort()
+		files.sort()
+
 		path = re.split('[\\\\/]', root)
 		pathLength = len(path) - rootLength + 1
 
