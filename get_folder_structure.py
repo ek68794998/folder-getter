@@ -28,4 +28,5 @@ def printDirs(rootDir, depth = 0):
 
 			print (depth + pathLength) * '\t', '%s\t\t%d\t%s' % (fname, size, modTime)
 
+print "Printing files and directories in", rootDir
 printDirs(rootDir)
