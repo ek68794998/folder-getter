@@ -2,7 +2,7 @@ import os
 import re
 import datetime
 
-rootDir = 'C:\\Windows'
+rootDir = ur'C:\\Windows'
 
 def printDirs(rootDir, depth = 0):
 	rootLength = len(re.split('[\\\\/]', rootDir));
@@ -14,7 +14,7 @@ def printDirs(rootDir, depth = 0):
 		path = re.split('[\\\\/]', root)
 		pathLength = len(path) - rootLength + 1
 
-		print (depth + pathLength - 1) * '\t', os.path.basename(root)
+		print (depth + pathLength - 1) * '\t', os.path.basename(root), '(root:\\\\%s)' % os.path.relpath(root, rootDir)
 
 		for fname in files:
 			fullPath = os.path.join(root, fname)
