@@ -1,7 +1,11 @@
 # Folder Getter
+
+:warning: **This project is no longer maintained.**
+
 This is a basic application for printing out a full folder and file structure. I mostly use it when I want to see compare the files in a certain folder to another, or when I just want to see every file in a folder. I never set it up to take command line arguments, so just edit the file to use whatever folder you like, and run it with no arguments.
 
 # Example output
+
 ```
 src
 	android
@@ -112,4 +116,5 @@ src
 ```
 
 # License
+
 Do whatever you like with this. Seriously. Use it, edit it, distribute it, put it on a USB drive and chop it up to make salad... whatever you like.
